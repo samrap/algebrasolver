@@ -1,0 +1,40 @@
+                Algebra Solver 1.0
+
+           ---- Available commands ----
+
+Commands, options, and help can only be called when a function is
+not in progress (when the '>>>' prompt is displayed).
+
+Calculation Commands:
+    s
+    dv
+    man
+    numtype
+    q -[flag]
+    sq -[flag]
+    sr -[flag]
+
+System Commands:
+    clear              Clears the screen output
+    quit               Quits the program
+    history            Print command history
+    reset username     Reset your username to a new one
+    reset history      Reset command history
+
+Extras:
+    Games:
+        1. tictactoe
+            command: tictactoe
+        2. hangman
+            command: hangman
+
+Additional help:
+    Type 'man xcmd', where 'xcmd' is the name of the command
+    you wish to view more info on. For example 'man s'
+    will display the full manual on the slope command.
+    Manuals are only available for calculation commands.
+
+
+------------------
+ Type 'q' to exit
+------------------

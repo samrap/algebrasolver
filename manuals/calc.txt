@@ -1,0 +1,47 @@
+
+           ---- Command Manual ----
+
+NAME
+    calc
+
+DESCRIPTION
+    Calculator mode. Once in calculator (calc) mode,
+    you are able to use the command line as a basic
+    calculator. This command function is the only
+    current function that doesn't return to the main
+    prompt once a calculation is finished. Instead,
+    it remains in calc mode until the user exits it
+    by entering '!' into the prompt.
+
+    When calc mode has been entered, a message is
+    printed saying that the user is now in calc
+    mode. Once calc mode has been exited, a new
+    message is printed saying that the user is
+    back in default mode. To make the two modes
+    look as unique as possible, the calc prompt
+    looks like:
+
+    calc >
+
+    whereas the default prompt is:
+
+    >>>
+
+    This makes it easy to know what mode you are
+    in at a quick glance.
+
+INPUT SYNTAX
+    Calc mode allows calculations of addition,
+    subtraction, multiplication and division. As
+    well as these basic operations, calc mode
+    allows the use of parenthesis () to change
+    the order of operations. If any invalid input
+    is given, an error message prints and calc
+    mode continues as if nothing happened. Note
+    that no manuals, including this one are
+    viewable in calc mode, you must exit calc
+    mode and then view a manual.
+
+------------------
+ Type 'q' to exit
+------------------

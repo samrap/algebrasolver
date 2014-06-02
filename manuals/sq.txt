@@ -1,0 +1,39 @@
+           ---- Command Manual ----
+
+NAME
+    sq -[flag]
+
+DESCRIPTION
+    Check if the given sequence of numbers is a [flag] sequence.
+    If it is, the common difference or ratio is printed. The flag
+    specifies what type of series to look for.
+
+    -a        Arithmetic sequence: The difference between
+              consecutive terms is constant. If it is an
+              arithmetic sequence, print the common difference
+
+    -an       Arithmetic sequence + nth term: The difference
+              between consecutive terms is constant. If it is an
+              arithmetic sequence, print the specified nth term
+              in addition to the common difference
+
+    -g        Geometric sequence: The ratio of any term to its
+              preceding term is constant. If it is a geometric
+              sequence, print the common ratio
+
+    -gn       Geometric sequence + nth term: The ratio of any
+              term to its preceding term is constant. If it is a
+              geometric sequence, print the specified nth term in
+              addition to the common ratio
+
+INPUT SYNTAX
+    A prompt will ask for the sequence with each number separated
+    by a comma ','. The sequence can optionally be wrapped in
+    parenthesis i.e. (4,12,36) though it is not required. If the
+    -n flag is specified, the desired nth term is required as
+    input directly after the sequence is entered.
+
+
+------------------
+ Type 'q' to exit
+------------------

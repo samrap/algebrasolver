@@ -1,0 +1,18 @@
+           ---- Command Manual ----
+
+NAME
+    slope
+
+DESCRIPTION
+    Calculate the slope of a line given two x and y
+    coordinates. The prompt asks for the first set,
+    then the second set.
+
+INPUT SYNTAX
+    Each set of coordinates must be entered as a
+    pair of points: (x,y)
+
+
+------------------
+ Type 'q' to exit
+------------------

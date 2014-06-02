@@ -1,0 +1,17 @@
+           ---- Command Manual ----
+
+NAME
+    numtype
+
+DESCRIPTION
+    Print the type of the specified number. For
+    example, the number 12 is a real, natural
+    number. -2 is a real integer, and 3.6743 is
+    a real, rational number.
+
+INPUT SYNTAX
+    - Enter the number you wish to check.
+
+------------------
+ Type 'q' to exit
+------------------

@@ -1,0 +1,44 @@
+           ---- Command Manual ----
+
+NAME
+    sr -[flag]
+
+DESCRIPTION
+    Print the sum of the specified sequence. The flag specifies
+    what type of series to find the sum of (i.e. arithmetic or
+    geometric).
+
+    Note that the command does not check if the input is a
+    sequence, but assumes that it is. This is because the
+    calculation does not require every value of the sequence, so
+    there is no way to check for a common difference or ratio.
+    This may seem like a poor feature at first, but is actually
+    very useful; it allows you to find the sum (series) of a
+    sequence where not all the data is provided. As long as a
+    sequence can be assumed, the series can be calculated. The sq
+    command can be used to determine if a list of data is a
+    sequence, but only if all the data is known.
+
+    Also note that this command does not work for the sum of any
+    list of data. It must be a sequence. For finding the sum of
+    a list of data that is not a sequence, a basic calculator
+    will do the job.
+
+    1 and only 1 argument must be used with this command.
+
+    -a        Arithmetic series: Print the sum of the arithmetic
+              sequence. The first term (a1), nth term (an), and
+              the number of terms (n) are required as input.
+
+    -g        Geometric series: Print the sum of the geometric
+              series. The first term (a1), nth term (an), and the
+              common ratio (r) are required as input.
+
+INPUT SYNTAX
+    Varies based on flag. Specifics are mentioned under the
+    description of each flag above.
+
+
+------------------
+ Type 'q' to exit
+------------------

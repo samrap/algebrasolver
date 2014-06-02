@@ -1,0 +1,47 @@
+           ---- Command Manual ----
+
+NAME
+    dv
+
+DESCRIPTION
+    Find if there is direct variation between
+    multiple x,y values. For example, given a
+    table of x,y values, does each y value vary
+    directly with its corresponding x value? If
+    it does, the constant of variation (k) is
+    returned. If it doesn't, a message saying
+    there is no direct variation is printed.
+
+INPUT SYNTAX
+    - Enter the 'x' values first, hit enter, then
+      enter the 'y' values all in the form of:
+      (1,2,3)
+
+ADDITIONAL INFO
+
+      There can be unlimited x and y values.
+      Important to note is that if the length of
+      either set of values is greater than the
+      other set, those additional values are
+      ignored.
+
+      Example:
+      x = (1, 3)
+      y = (2, 6, 9)
+
+      Y varies directly with x because there is no
+      x value that corresponds to the last y value,
+      so the last y value is ignored.
+
+      Also important to note is what the program
+      does when it comes across a '0' in the list
+      of 'x' values. Remember that any number
+      divided by 0 is undefined. If any value in
+      the 'x' list equals 0, the program immediately
+      skips checking for direct variation and prints
+      an error.
+
+
+------------------
+ Type 'q' to exit
+------------------

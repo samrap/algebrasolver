@@ -1,0 +1,29 @@
+           ---- Command Manual ----
+
+NAME
+    q -[flag]
+
+DESCRIPTION
+    Set up a quadratic equation using its a,b,c values. Use
+    the flag to select what to do with the quadratic, such as
+    factoring it, finding the vertex, etc.
+
+    -f        Factors the quadratic equation into its simplest
+              form: (x + n0)(x + n1)
+
+    -d        Find the discriminant of the quadratic equation
+
+    -v        Find the vertex of the quadratic equation
+
+    -v fm     Similar to the -v flag, but return the quadratic
+              equation in vertex form rather than just the
+              vertex.
+
+INPUT SYNTAX
+    A prompt will ask for the a, b, and c values of the quadratic
+    equation before any calculations are returned.
+
+
+------------------
+ Type 'q' to exit
+------------------
